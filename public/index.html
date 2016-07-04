@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TOTP Demo</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <h1>TOTP Demo</h1>
+        <div>
+            <p>Enter Email : <input id="new_email"></input><button id="register">Register</button></p>
+            <p id="register_result"></p>
+        </div>
+        <hr/>
+        <h2>Validate TOTP</h2>
+        <div>
+            <p>Enter Email : <input id="email"></input></p>
+            <p>Enter TOTP : <input id="totp"></input></p>
+            <p><button id="validate">Validate</button></p>
+            <p id="validate_result"></p>
+        </div>
+    <hr/>
+    </body>
+    <script src="totp.js"></script>
+
+</html>
+
