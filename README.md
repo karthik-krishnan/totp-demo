@@ -5,6 +5,13 @@ A simple demo of TOTP functionality
 
 This application is a simple Spring Boot Application to allow registration of TOTP Soft Tokens and to validate TOTP.  I have wrapped the APIs with a simple UI to demonstrate the functions.
 
+### Steps to run the application
+```bash
+mvn spring-boot:run
+```
+
+Server will run on http://localhost:8080
+
 ### Registration API
 ```http
 POST /register?email=john.doe@example.org HTTP/1.1
