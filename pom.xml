@@ -25,9 +25,14 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <groupId>com.warrenstrange</groupId>
             <artifactId>googleauth</artifactId>
-            <version>0.5.0</version>
+            <version>1.1.5</version>
         </dependency>
         <dependency>
             <groupId>com.sun.jersey</groupId>
@@ -64,5 +69,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
