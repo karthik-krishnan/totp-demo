@@ -1,0 +1,3 @@
+[submodule "my-secrets"]
+	path = my-secrets
+	url = keybase://private/karthikvkrishnan/my-secrets
