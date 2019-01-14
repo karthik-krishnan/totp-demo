@@ -22,3 +22,14 @@ $("#validate").click(function() {
             $("#validate_result").html("Authentication Failed!!!");
     });
 });
+
+$("#generate").click(function() {
+    $("#generate_result").html("Please wait...");
+    $.ajax({
+        type: "POST",
+        url: "http://localhost:8080/generate",
+        data: "email=" + $("#email").val()
+    }).then(function(data) {
+        $("#generate_result").html("OTP is " + data);
+    });
+});
