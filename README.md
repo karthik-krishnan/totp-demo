@@ -1,4 +1,4 @@
-# TOTP Demo
+#a TOTP Demo
 
 A simple demo of TOTP functionality
 
